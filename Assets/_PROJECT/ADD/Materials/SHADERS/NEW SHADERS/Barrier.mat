@@ -55,7 +55,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DotSize: 1.4
+    - _DotSize: 0.6
     - _DotsNoiseScale: 0
     - _MaskPower: 1.4
     - _NoiseScale: 10
@@ -64,7 +64,7 @@ Material:
     m_Colors:
     - _BorderColor: {r: 0, g: 0.2120986, b: 1, a: 1}
     - _DotsColor: {r: 0, g: 0.9262848, b: 1, a: 1}
-    - _DotsTiling: {r: 300, g: 300, b: 0, a: 0}
+    - _DotsTiling: {r: 60, g: 700, b: 0, a: 0}
     - _NoiseSpeed: {r: 0, g: 0.2, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
