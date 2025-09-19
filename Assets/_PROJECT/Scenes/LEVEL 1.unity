@@ -21022,7 +21022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5536e29f6e78fd41ac1390d9cdccc43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 0
+  sceneName: 3
 --- !u!4 &1812411678
 Transform:
   m_ObjectHideFlags: 0
@@ -21383,6 +21383,7 @@ MonoBehaviour:
   movementSource: {fileID: 275445759}
   musicSource: {fileID: 1307055783}
   Enemy: {fileID: 0}
+  CoinCollect: {fileID: 0}
   sfxVolume: 1
   movementVolume: 1
   musicVolume: 0.5
