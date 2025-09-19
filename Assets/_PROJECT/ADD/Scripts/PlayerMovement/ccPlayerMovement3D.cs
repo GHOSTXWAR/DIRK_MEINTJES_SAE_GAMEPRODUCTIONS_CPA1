@@ -78,11 +78,13 @@ public class ccPlayerMovement3D : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
+        //if ((jump.ReadValue<float>() == 1) && (IsGrounded()))
         //<jump>
         if ((jump.ReadValue<float>() == 1) && (IsGrounded()))
         {
             canDoubleJump = true;
             PlayerJump();
+            SoundManager.Instance.PlayJumpSound();
         }
         if (canDoubleJump && jump.ReadValue<float>() == 0 && !IsGrounded())
         {

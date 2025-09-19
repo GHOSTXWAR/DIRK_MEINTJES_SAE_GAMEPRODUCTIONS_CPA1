@@ -11,6 +11,7 @@ public class SoundManager : MonoBehaviour
     public AudioSource movementSource;
     public AudioSource musicSource;
     public AudioSource Enemy;
+    public AudioSource CoinCollect;
 
     [Header("Volume Settings")]
     [Range(0f, 1f)] public float sfxVolume = 1f;
@@ -103,8 +104,12 @@ public class SoundManager : MonoBehaviour
 
     public void PlayJumpSound()
     {
-        if (jumpSound)
+        if (jumpSound && !sfxSource.isPlaying)
+        {
             sfxSource.PlayOneShot(jumpSound, sfxVolume);
+        }
+           
+
     }
 
     public void SetMusicVolume(float volume)
