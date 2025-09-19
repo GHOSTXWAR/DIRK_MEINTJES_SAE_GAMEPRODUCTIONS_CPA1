@@ -11,7 +11,7 @@ public class SoundManager : MonoBehaviour
     public AudioSource movementSource;
     public AudioSource musicSource;
     public AudioSource Enemy;
-    public AudioSource CoinCollect;
+    
 
     [Header("Volume Settings")]
     [Range(0f, 1f)] public float sfxVolume = 1f;
@@ -27,6 +27,10 @@ public class SoundManager : MonoBehaviour
 
     [Header("Enemy Sounds")]
     public AudioClip EnemySound;
+
+    [Header("Coin Sounds")]
+    public AudioClip coinSound;
+
 
     void Awake()
     {
@@ -171,4 +175,12 @@ public class SoundManager : MonoBehaviour
         if (EnemySound != null) StopEnemySound();   
     }
     
+
+    public void PlayCoinSound()
+    {
+        if (coinSound != null)
+        {
+            sfxSource.PlayOneShot(coinSound, sfxVolume);
+        }
+    }
 }
