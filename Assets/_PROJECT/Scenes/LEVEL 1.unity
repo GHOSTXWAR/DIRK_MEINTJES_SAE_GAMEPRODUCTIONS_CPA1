@@ -35191,6 +35191,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1781743858}
+    - target: {fileID: 5070697705642872352, guid: 616e48bd96b64e34e9a731ef63eff5bb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Quitgame
+      objectReference: {fileID: 0}
     - target: {fileID: 5706250225873503169, guid: 616e48bd96b64e34e9a731ef63eff5bb, type: 3}
       propertyPath: UIEventSystem
       value: 
