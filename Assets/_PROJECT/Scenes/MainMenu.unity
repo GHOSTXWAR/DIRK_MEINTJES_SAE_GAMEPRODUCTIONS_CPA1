@@ -459,6 +459,7 @@ MonoBehaviour:
   footstepSound: {fileID: 8300000, guid: 182695e611ddfb04ca93b165fdea0c2a, type: 3}
   jumpSound: {fileID: 8300000, guid: c2b6e3f86fdd2c648b16205ae219371f, type: 3}
   EnemySound: {fileID: 0}
+  coinSound: {fileID: 8300000, guid: abdbcd3cafea81d488ca291080769e5b, type: 3}
 --- !u!1 &1710274242
 GameObject:
   m_ObjectHideFlags: 0
@@ -3914,7 +3915,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Defeat your oponent
+  m_text: Defeat your oponent they are your enemy
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5180,7 +5181,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Collect coins and defeat your oppenent to earn points to win
+  m_text: Collect coins and defeat your opponent if you defeat you opponent you earn
+    there coins and win
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
